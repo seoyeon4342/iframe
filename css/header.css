@@ -9,6 +9,8 @@ a {
 header {
     padding:20px; position:relative;text-align: right; background: white;
 }
+header>div {display:flex; }
+#outer {flex:1; padding:20px; }
 header button.material-symbols-outlined {
     background: none; font-size:2rem; margin-bottom:20px; border:none;
 }

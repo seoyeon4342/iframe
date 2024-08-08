@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 
-    const header = document.querySelector("#top header");
+    const outer = document.querySelector("outer");
     const navBtn = document.querySelector("header button");
     const nav = document.querySelector("header nav");
     const iframe = window.parent.document.getElementById("header");
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     navBtn.addEventListener("click", navSlide);
-    header.addEventListener("click", navHide);
+    outer.addEventListener("click", navHide);
 
 
 
