@@ -12,7 +12,11 @@ a {
 
 /*********************/
 
-iframe#header {width:100%; height:100px; position: absolute;}
+iframe#header {            
+    position:fixed; top:0; left:0; width:100vw; height:100px; z-index: 1;
+    border:none;
+}
+iframe#header.slide {height: 100vh;}
 
 
 

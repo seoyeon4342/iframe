@@ -13,8 +13,8 @@ header button.material-symbols-outlined {
     background: none; font-size:2rem; margin-bottom:20px; border:none;
 }
 header nav {
-    background-color:rgba(0,0,0, 0.85); height:0; 
-    position: absolute;  left:0; width:100%; overflow:hidden; transition:all 0.7s;
+    background-color:rgba(0,0,0, 0.85); height:100vh; 
+    position: absolute;  left:0; width:100%; overflow:hidden; transition:all 0.7s; 
 }
 
 header:hover  nav.slide {height:100vh; padding:50px;}
